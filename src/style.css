@@ -1,0 +1,10 @@
+@import './styles/global.css';
+
+/* NProgress 自定义 */
+#nprogress .bar {
+  background: var(--admin-primary) !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 10px var(--admin-primary), 0 0 5px var(--admin-primary) !important;
+}
